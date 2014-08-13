@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalAuth", "LocalAuth\LocalAuth.csproj", "{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Debug|iPhone.Build.0 = Debug|iPhone
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Release|iPhone.ActiveCfg = Release|iPhone
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Release|iPhone.Build.0 = Release|iPhone
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{3E3BDD55-E4C4-454F-B4A1-195402AF32C5}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = LocalAuth\LocalAuth.csproj
+	EndGlobalSection
+EndGlobal

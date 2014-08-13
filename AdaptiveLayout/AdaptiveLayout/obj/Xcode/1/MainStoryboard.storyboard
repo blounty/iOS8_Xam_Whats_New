@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Adaptive Layout View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="AdaptiveLayoutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KUr-Op-Gee"/>
+                        <viewControllerLayoutGuide type="bottom" id="jiG-gs-M4H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC01093small.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v3K-jH-AK6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="471"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xamarin Usergroup" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT8-f8-6JR">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LT8-f8-6JR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="4oJ-GD-ac8"/>
+                            <constraint firstItem="v3K-jH-AK6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="6sr-y9-eLs"/>
+                            <constraint firstItem="LT8-f8-6JR" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="NYA-E4-X21"/>
+                            <constraint firstItem="jiG-gs-M4H" firstAttribute="top" secondItem="v3K-jH-AK6" secondAttribute="bottom" constant="129" id="ci1-Vu-5ZF"/>
+                            <constraint firstItem="LT8-f8-6JR" firstAttribute="top" secondItem="v3K-jH-AK6" secondAttribute="bottom" constant="29" id="fRb-Ko-2dv"/>
+                            <constraint firstItem="jiG-gs-M4H" firstAttribute="top" secondItem="LT8-f8-6JR" secondAttribute="bottom" constant="100" id="ilf-X5-2k1"/>
+                            <constraint firstItem="v3K-jH-AK6" firstAttribute="top" secondItem="KUr-Op-Gee" secondAttribute="bottom" constant="-20" id="nxJ-CQ-bBl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="v3K-jH-AK6" secondAttribute="trailing" constant="-16" id="z0t-Ts-OYw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510" y="447"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DSC01093small.jpg" width="1228" height="816"/>
+    </resources>
+</document>

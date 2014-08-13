@@ -1,0 +1,3 @@
+/Users/ITDEV/Projects/WhatsNew8/Handoff-Sample/HandOffSample/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/ITDEV/Projects/WhatsNew8/Handoff-Sample/HandOffSample/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/ITDEV/Projects/WhatsNew8/Handoff-Sample/HandOffSample/obj/iPhone/Debug/mtouch-cache/Link/HandOffSample.exe

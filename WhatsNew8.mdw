@@ -1,0 +1,11 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>PhotoKit/PhotoKit.sln</Item>
+    <Item>VisualEffects/VisualEffects.sln</Item>
+    <Item>LocalAuth/LocalAuth.sln</Item>
+    <Item>Settings/Settings.sln</Item>
+    <Item>HealthKit/HealthKit.sln</Item>
+    <Item>Handoff-Sample/HandOffSample.sln</Item>
+    <Item>AdaptiveLayout/AdaptiveLayout.sln</Item>
+  </Items>
+</WorkspaceItem>

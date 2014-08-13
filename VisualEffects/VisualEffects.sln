@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualEffects", "VisualEffects\VisualEffects.csproj", "{22563E7B-12EF-419A-BF62-B055CCBEE295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Debug|iPhone.Build.0 = Debug|iPhone
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Release|iPhone.ActiveCfg = Release|iPhone
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Release|iPhone.Build.0 = Release|iPhone
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{22563E7B-12EF-419A-BF62-B055CCBEE295}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = VisualEffects\VisualEffects.csproj
+	EndGlobalSection
+EndGlobal

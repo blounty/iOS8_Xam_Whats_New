@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE4EE480000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3375FAE60000000000000000 /* UIKit.framework */; };
+		117A917B0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B9E190000000000000000 /* MapKit.framework */; };
+		26ADFA130000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3F06B10000000000000000 /* Foundation.framework */; };
+		1A18DC5C0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA9E8FA0000000000000000 /* CoreGraphics.framework */; };
+		F1B789600000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AC85340000000000000000 /* Default-568h@2x.png */; };
+		244EE12E0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27DFEDCC0000000000000000 /* Info.plist */; };
+		1279A2180000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 160AAEB60000000000000000 /* Entitlements.plist */; };
+		A46302000000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4356FA000000000000000000 /* MainStoryboard.storyboard */; };
+		CD3BA8100000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1064C71F0000000000000000 /* AppDelegate.h */; };
+		25654C9B0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F659390000000000000000 /* AppDelegate.m */; };
+		3E29C1D10000000000000000 /* LocalAuthViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1BACE6F00000000000000000 /* LocalAuthViewController.h */; };
+		135D2A690000000000000000 /* LocalAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EE37070000000000000000 /* LocalAuthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FF31CBC0000000000000000 /* LocalAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "LocalAuth.app"; path = "LocalAuth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3375FAE60000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		150B9E190000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		2A3F06B10000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		1DA9E8FA0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		12AC85340000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		27DFEDCC0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		160AAEB60000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		4356FA000000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		1064C71F0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		28F659390000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		1BACE6F00000000000000000 /* LocalAuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LocalAuthViewController.h"; path = "LocalAuthViewController.h"; sourceTree = "<group>"; };
+		16EE37070000000000000000 /* LocalAuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LocalAuthViewController.m"; path = "LocalAuthViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191D582A0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE4EE480000000000000000 /* UIKit.framework in Frameworks */,
+				117A917B0000000000000000 /* MapKit.framework in Frameworks */,
+				26ADFA130000000000000000 /* Foundation.framework in Frameworks */,
+				1A18DC5C0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3936C9B80000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				23D07E040000000000000000 /* LocalAuth */,
+				77AFC3000000000000000000 /* Frameworks */,
+				2E83A3DE0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E83A3DE0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF31CBC0000000000000000 /* LocalAuth.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		77AFC3000000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3375FAE60000000000000000 /* UIKit.framework */,
+				150B9E190000000000000000 /* MapKit.framework */,
+				2A3F06B10000000000000000 /* Foundation.framework */,
+				1DA9E8FA0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		23D07E040000000000000000 /* LocalAuth */ = {
+			isa = PBXGroup;
+			children = (
+				1064C71F0000000000000000 /* AppDelegate.h */,
+				12AC85340000000000000000 /* Default-568h@2x.png */,
+				160AAEB60000000000000000 /* Entitlements.plist */,
+				27DFEDCC0000000000000000 /* Info.plist */,
+				1BACE6F00000000000000000 /* LocalAuthViewController.h */,
+				4356FA000000000000000000 /* MainStoryboard.storyboard */,
+				274744780000000000000000 /* Supporting Files */,
+			);
+			name = "LocalAuth";
+			sourceTree = "<group>";
+		};
+		274744780000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F659390000000000000000 /* AppDelegate.m */,
+				16EE37070000000000000000 /* LocalAuthViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A74D8E0000000000000000 /* LocalAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353FF6E20000000000000000 /* Build configuration list for PBXNativeTarget "LocalAuth" */;
+			buildPhases = (
+				3B70C7600000000000000000 /* Sources */,
+				191D582A0000000000000000 /* Frameworks */,
+				2CA1AC010000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocalAuth";
+			productName = "LocalAuth";
+			productReference = 3FF31CBC0000000000000000 /* LocalAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F427B40000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FBC46A0000000000000000 /* Build configuration list for PBXProject "LocalAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3936C9B80000000000000000;
+			productRefGroup = 2E83A3DE0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A74D8E0000000000000000 /* LocalAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CA1AC010000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B789600000000000000000 /* Default-568h@2x.png in Resources */,
+				244EE12E0000000000000000 /* Info.plist in Resources */,
+				1279A2180000000000000000 /* Entitlements.plist in Resources */,
+				A46302000000000000000000 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B70C7600000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3BA8100000000000000000 /* AppDelegate.h in Sources */,
+				25654C9B0000000000000000 /* AppDelegate.m in Sources */,
+				3E29C1D10000000000000000 /* LocalAuthViewController.h in Sources */,
+				135D2A690000000000000000 /* LocalAuthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2877F60F0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		1C489E900000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "LocalAuth";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FBC46A0000000000000000 /* Build configuration list for PBXProject "LocalAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2877F60F0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		353FF6E20000000000000000 /* Build configuration list for PBXNativeTarget "LocalAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C489E900000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F427B40000000000000000 /* Project object */;
+}

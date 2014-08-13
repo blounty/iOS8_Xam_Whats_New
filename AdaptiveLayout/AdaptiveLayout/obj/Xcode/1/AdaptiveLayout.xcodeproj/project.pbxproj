@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2A99350000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBBA5D30000000000000000 /* UIKit.framework */; };
+		3CC03C680000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514906000000000000000000 /* MapKit.framework */; };
+		11F3A5000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1584B19E0000000000000000 /* Foundation.framework */; };
+		55E874900000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF93E700000000000000000 /* CoreGraphics.framework */; };
+		24CDCB670000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 285ED8050000000000000000 /* Default-568h@2x.png */; };
+		3A0133FF0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D92409D0000000000000000 /* Info.plist */; };
+		282BF4E90000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD01870000000000000000 /* Entitlements.plist */; };
+		1656B5D30000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E7C2710000000000000000 /* MainStoryboard.storyboard */; };
+		32AC37A70000000000000000 /* DSC01093small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 363D44450000000000000000 /* DSC01093small.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78E497D00000000000000000 /* AdaptiveLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "AdaptiveLayout.app"; path = "AdaptiveLayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBBA5D30000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		514906000000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		1584B19E0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		8EF93E700000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		285ED8050000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3D92409D0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		2BBD01870000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		19E7C2710000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		363D44450000000000000000 /* DSC01093small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "DSC01093small.jpg"; path = "DSC01093small.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37CDE5600000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2A99350000000000000000 /* UIKit.framework in Frameworks */,
+				3CC03C680000000000000000 /* MapKit.framework in Frameworks */,
+				11F3A5000000000000000000 /* Foundation.framework in Frameworks */,
+				55E874900000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E756EE0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2810B3A00000000000000000 /* AdaptiveLayout */,
+				229A7CC80000000000000000 /* Frameworks */,
+				D34311400000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D34311400000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78E497D00000000000000000 /* AdaptiveLayout.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		229A7CC80000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EBBA5D30000000000000000 /* UIKit.framework */,
+				514906000000000000000000 /* MapKit.framework */,
+				1584B19E0000000000000000 /* Foundation.framework */,
+				8EF93E700000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		2810B3A00000000000000000 /* AdaptiveLayout */ = {
+			isa = PBXGroup;
+			children = (
+				285ED8050000000000000000 /* Default-568h@2x.png */,
+				363D44450000000000000000 /* DSC01093small.jpg */,
+				2BBD01870000000000000000 /* Entitlements.plist */,
+				3D92409D0000000000000000 /* Info.plist */,
+				19E7C2710000000000000000 /* MainStoryboard.storyboard */,
+			);
+			name = "AdaptiveLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FD386ED0000000000000000 /* AdaptiveLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDB23A30000000000000000 /* Build configuration list for PBXNativeTarget "AdaptiveLayout" */;
+			buildPhases = (
+				25F8A64A0000000000000000 /* Sources */,
+				37CDE5600000000000000000 /* Frameworks */,
+				EE345D500000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AdaptiveLayout";
+			productName = "AdaptiveLayout";
+			productReference = 78E497D00000000000000000 /* AdaptiveLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		352061130000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3227FDC90000000000000000 /* Build configuration list for PBXProject "AdaptiveLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17E756EE0000000000000000;
+			productRefGroup = D34311400000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD386ED0000000000000000 /* AdaptiveLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE345D500000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CDCB670000000000000000 /* Default-568h@2x.png in Resources */,
+				3A0133FF0000000000000000 /* Info.plist in Resources */,
+				282BF4E90000000000000000 /* Entitlements.plist in Resources */,
+				1656B5D30000000000000000 /* MainStoryboard.storyboard in Resources */,
+				32AC37A70000000000000000 /* DSC01093small.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F8A64A0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A42F6E0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		2774D7EF0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "AdaptiveLayout";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3227FDC90000000000000000 /* Build configuration list for PBXProject "AdaptiveLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A42F6E0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		3CDB23A30000000000000000 /* Build configuration list for PBXNativeTarget "AdaptiveLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2774D7EF0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 352061130000000000000000 /* Project object */;
+}

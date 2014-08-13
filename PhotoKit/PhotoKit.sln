@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoKit", "PhotoKit\PhotoKit.csproj", "{C709CDA8-3F1E-47EB-938F-3955952F5C6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Release|iPhone.Build.0 = Release|iPhone
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C709CDA8-3F1E-47EB-938F-3955952F5C6C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PhotoKit\PhotoKit.csproj
+	EndGlobalSection
+EndGlobal

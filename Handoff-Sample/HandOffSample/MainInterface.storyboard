@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dae-qZ-ej8">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
+    </dependencies>
+    <scenes>
+        <!--Hand Off View Controller-->
+        <scene sceneID="26B-e8-pKW">
+            <objects>
+                <viewController id="dae-qZ-ej8" customClass="HandOffViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rhh-Wo-fdJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="fmN-8i-PJ1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bZv-kU-VIc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VBs-60-z07">
+                                <rect key="frame" x="20" y="285" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36667023567592372" green="0.38202428056310189" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VBs-60-z07" firstAttribute="centerY" secondItem="bZv-kU-VIc" secondAttribute="centerY" id="ONi-N9-3fe"/>
+                            <constraint firstAttribute="trailing" secondItem="VBs-60-z07" secondAttribute="trailing" constant="20" symbolic="YES" id="bIe-pZ-XT4"/>
+                            <constraint firstItem="VBs-60-z07" firstAttribute="leading" secondItem="bZv-kU-VIc" secondAttribute="leading" constant="20" symbolic="YES" id="pQR-ot-52b"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="SharedTextField" destination="VBs-60-z07" id="AwZ-la-0K9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFI-u2-WUN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="321" y="297"/>
+        </scene>
+    </scenes>
+</document>

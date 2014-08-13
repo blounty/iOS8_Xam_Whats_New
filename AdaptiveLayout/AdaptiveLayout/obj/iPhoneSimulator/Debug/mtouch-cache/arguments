@@ -1,0 +1,27 @@
+# Version: 7.9.2.136 (fef687c)
+# [first argument, ignore] # /Users/ITDEV/Projects/WhatsNew8/AdaptiveLayout/AdaptiveLayout/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode6-Beta5.app/Contents/Developer \
+	--cache \
+	/Users/ITDEV/Projects/WhatsNew8/AdaptiveLayout/AdaptiveLayout/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/ITDEV/Projects/WhatsNew8/AdaptiveLayout/AdaptiveLayout/bin/iPhoneSimulator/Debug/AdaptiveLayout.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	8.0 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/ITDEV/Projects/WhatsNew8/AdaptiveLayout/AdaptiveLayout/bin/iPhoneSimulator/Debug/AdaptiveLayout.exe \

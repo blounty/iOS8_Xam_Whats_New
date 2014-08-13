@@ -1,0 +1,3 @@
+/Users/ITDEV/Projects/WhatsNew8/PhotoKit/PhotoKit/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/ITDEV/Projects/WhatsNew8/PhotoKit/PhotoKit/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/ITDEV/Projects/WhatsNew8/PhotoKit/PhotoKit/obj/iPhone/Debug/mtouch-cache/Link/PhotoKit.exe

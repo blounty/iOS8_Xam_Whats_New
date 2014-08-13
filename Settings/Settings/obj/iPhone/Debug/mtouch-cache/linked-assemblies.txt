@@ -1,0 +1,4 @@
+/Users/ITDEV/Projects/WhatsNew8/Settings/Settings/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/ITDEV/Projects/WhatsNew8/Settings/Settings/obj/iPhone/Debug/mtouch-cache/Link/System.dll
+/Users/ITDEV/Projects/WhatsNew8/Settings/Settings/obj/iPhone/Debug/mtouch-cache/Link/Settings.exe
+/Users/ITDEV/Projects/WhatsNew8/Settings/Settings/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll

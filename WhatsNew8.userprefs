@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Handoff-Sample/HandOffSample/AppDelegate.cs">
+    <Files>
+      <File FileName="Handoff-Sample/HandOffSample/AppDelegate.cs" Line="16" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ITDEV/Projects/WhatsNew8/PhotosFramework/PhotosFramework/PhotosFrameworkViewController.cs" line="36" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../GTRG2015/GTRG2015.Shared/ViewModels/NearMeViewModel.cs" line="32" offsetX="625" offsetY="465" expression="this.Restaurants" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
